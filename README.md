@@ -28,6 +28,7 @@ CREATE TABLE employees (
     is_active BOOLEAN DEFAULT TRUE
 );
 ```
+<img width="1202" height="349" alt="image" src="https://github.com/user-attachments/assets/a2575233-5009-44e3-8ed6-f49733b1fd00" />
 
 ### 2. Основные операции с данными (CRUD)
 
