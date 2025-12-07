@@ -45,6 +45,8 @@ VALUES
     ('Алексей', 'Сидоров', 'Sales', 65000),
     ('Ольга', 'Кузнецова', 'IT', 80000);
 ```
+<img width="1031" height="344" alt="image" src="https://github.com/user-attachments/assets/f2519a88-04a1-43cd-86b7-adb75a678b61" />
+
 
 **SELECT** - выборка данных:
 ```sql
@@ -60,6 +62,8 @@ SELECT * FROM employees LIMIT 10;
 -- Уникальные значения
 SELECT DISTINCT department FROM employees;
 ```
+
+
 
 **WHERE** - фильтрация данных:
 ```sql
