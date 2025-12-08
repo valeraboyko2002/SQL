@@ -44,8 +44,14 @@ VALUES
     ('Мария', 'Петрова', 'HR', 60000),
     ('Алексей', 'Сидоров', 'Sales', 65000),
     ('Ольга', 'Кузнецова', 'IT', 80000);
+
+-- Обновление значений
+UPDATE employees set email = 'valeraboyko2002@yandex.ru' where id = 2;
+-- Увеличить всем зарплату на 10 %
+UPDATE employees set salary = salary*1.1 where department = 'IT';
 ```
 <img width="1031" height="344" alt="image" src="https://github.com/user-attachments/assets/f2519a88-04a1-43cd-86b7-adb75a678b61" />
+<img width="1086" height="590" alt="image" src="https://github.com/user-attachments/assets/d4ac18d8-5048-4ee1-9e1a-8de8c209e143" />
 
 
 **SELECT** - выборка данных:
