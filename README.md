@@ -68,6 +68,7 @@ SELECT * FROM employees LIMIT 10;
 -- Уникальные значения
 SELECT DISTINCT department FROM employees;
 ```
+<img width="546" height="361" alt="image" src="https://github.com/user-attachments/assets/f648af91-e59d-4cdd-b7cf-20da81396fd6" />
 
 
 
