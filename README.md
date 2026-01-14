@@ -81,6 +81,7 @@ SELECT DISTINCT department FROM employees;
 -- Простые условия
 SELECT * FROM employees WHERE department = 'IT';
 SELECT * FROM employees WHERE salary > 70000;
+<img width="1051" height="237" alt="image" src="https://github.com/user-attachments/assets/e35aae43-257a-4633-bc52-faab4c3009b8" />
 
 -- Несколько условий
 SELECT * FROM employees 
@@ -88,6 +89,7 @@ WHERE department = 'IT' AND salary > 70000;
 
 SELECT * FROM employees 
 WHERE department = 'IT' OR department = 'Sales';
+<img width="1516" height="269" alt="image" src="https://github.com/user-attachments/assets/1881820b-fe93-4717-8f6c-9055a3f18ce2" />
 
 -- LIKE для поиска по шаблону
 SELECT * FROM employees WHERE first_name LIKE 'Ив%';  -- начинается на "Ив"
