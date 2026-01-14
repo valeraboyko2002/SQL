@@ -3,6 +3,10 @@
 ## 🔗 Подключение к базе данных
 
 ```sql
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+sudo -u postgres psql
+
 -- Подключение через psql
 psql -h localhost -p 5432 -U username database_name
 
