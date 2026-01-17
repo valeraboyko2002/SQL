@@ -101,6 +101,15 @@ CREATE TABLE employees (
 ```
 <img width="1202" height="349" alt="image" src="https://github.com/user-attachments/assets/a2575233-5009-44e3-8ed6-f49733b1fd00" />
 
+### Так-же возможна генерация данных и их последующее импортирование. [Сайт][https://www.mockaroo.com/]
+**Импортирование**
+```sql
+\i расположение файла.sql
+```
+<img width="730" height="413" alt="image" src="https://github.com/user-attachments/assets/da1a4de1-88f0-4ce3-9c7c-896e334294ee" />
+<img width="1265" height="756" alt="image" src="https://github.com/user-attachments/assets/6dd2df70-b38b-4948-9fc7-d5291f57b9c0" />
+
+
 ### 2. Основные операции с данными (CRUD)
 
 **INSERT** - добавление данных:
