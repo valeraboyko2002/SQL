@@ -240,6 +240,7 @@ SELECT department, AVG(salary) FROM employees GROUP BY department;
 SELECT MIN(salary), MAX(salary) FROM employees;
 SELECT department, MIN(salary), MAX(salary) FROM employees GROUP BY department;
 ```
+<img width="655" height="375" alt="image" src="https://github.com/user-attachments/assets/77b5e566-010b-42c5-a7c6-79ad1d2ea9ff" />
 
 ### 4. GROUP BY и HAVING
 ```sql
