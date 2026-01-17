@@ -148,7 +148,6 @@ SELECT DISTINCT department FROM employees;
 -- Простые условия
 SELECT * FROM employees WHERE department = 'IT';
 SELECT * FROM employees WHERE salary > 70000;
-<img width="1051" height="237" alt="image" src="https://github.com/user-attachments/assets/e35aae43-257a-4633-bc52-faab4c3009b8" />
 
 -- Несколько условий
 SELECT * FROM employees 
@@ -168,6 +167,10 @@ SELECT * FROM employees WHERE salary BETWEEN 60000 AND 80000;
 -- IN для списка значений
 SELECT * FROM employees WHERE department IN ('IT', 'HR', 'Sales');
 ```
+<img width="1051" height="237" alt="image" src="https://github.com/user-attachments/assets/e35aae43-257a-4633-bc52-faab4c3009b8" />
+<img width="753" height="133" alt="image" src="https://github.com/user-attachments/assets/60ed9b25-9bf1-4d66-badf-f420b8104ade" />
+
+
 
 **ORDER BY** - сортировка:
 ```sql
@@ -180,6 +183,9 @@ SELECT * FROM employees ORDER BY salary DESC;
 -- Сортировка по нескольким полям
 SELECT * FROM employees ORDER BY department ASC, salary DESC;
 ```
+<img width="1014" height="196" alt="image" src="https://github.com/user-attachments/assets/81becee2-adb6-4828-8ab6-f07854b1ba79" />
+<img width="1023" height="453" alt="image" src="https://github.com/user-attachments/assets/29221893-01e1-45d8-bf2d-defc259cbb72" />
+
 
 **UPDATE** - обновление данных:
 ```sql
