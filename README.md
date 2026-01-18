@@ -209,6 +209,8 @@ SET salary = salary * 1.1,  -- увеличение на 10%
     department = 'IT Senior'
 WHERE department = 'IT' AND salary < 70000;
 ```
+<img width="844" height="326" alt="image" src="https://github.com/user-attachments/assets/33e1310a-eb5a-43f2-bdc1-805c8a2b007a" />
+
 
 **DELETE** - удаление данных:
 ```sql
@@ -241,6 +243,9 @@ SELECT MIN(salary), MAX(salary) FROM employees;
 SELECT department, MIN(salary), MAX(salary) FROM employees GROUP BY department;
 ```
 <img width="655" height="375" alt="image" src="https://github.com/user-attachments/assets/77b5e566-010b-42c5-a7c6-79ad1d2ea9ff" />
+<img width="644" height="380" alt="image" src="https://github.com/user-attachments/assets/281b3359-eebe-4345-b625-8bcd184c0c60" />
+<img width="906" height="372" alt="image" src="https://github.com/user-attachments/assets/7841bd00-103b-4c2b-883c-0b86e484515a" />
+
 
 ### 4. GROUP BY и HAVING
 ```sql
